@@ -1,3 +1,10 @@
+// import Bootstrap custom theme
+@import 'bootstrap-lib/_theme';
+
+// import Bootstrap library
+@import 'bootstrap/scss/bootstrap';
+
+// demo specific
 body {
   max-width: 800px;
   margin: 0 auto;
