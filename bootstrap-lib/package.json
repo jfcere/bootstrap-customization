@@ -5,6 +5,7 @@
   "author": "Jean-Francois Cere",
   "license": "MIT",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "clean": "rimraf dist",
     "build": "yarn clean && webpack",
