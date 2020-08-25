@@ -1,0 +1,36 @@
+/**
+ * List of variables can be found in the bootstrap variable file
+ * node_modules/bootstrap/scss/_variables.scss
+ */
+
+ @import 'utils';
+
+ // Theme colors
+
+$primary: #0061aa;
+$secondary: #7c3b97;
+$success: #229955;
+$danger: #ff5722;
+$warning: #f5af41;
+$info: #81b9e5;
+
+// Options
+
+// $enable-shadows: true;
+// $enable-gradients: true;
+
+// Typography
+
+$font-size-base: prem(15);
+$line-height-base: 1.4;
+
+// Components
+
+$border-radius: 8px;
+$btn-border-radius-lg: $border-radius;
+$btn-border-radius-sm: $border-radius;
+
+// Buttons
+
+$input-btn-padding-y: prem(8);
+$input-btn-padding-x: prem(12);

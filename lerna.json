@@ -1,0 +1,8 @@
+{
+  "packages": [
+    "bootstrap-angular",
+    "bootstrap-lib",
+    "bootstrap-react"
+  ],
+  "version": "independent"
+}
