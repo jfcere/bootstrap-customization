@@ -4,11 +4,22 @@
 // import Bootstrap library
 @import 'bootstrap/scss/bootstrap';
 
+// mixins
+@mixin logo($max-width) {
+  $width-total: 175px;
+  $margin-left: 25px;
+  $margin-x: ($width-total - $max-width - $margin-left) / 2;
+
+  max-width: $max-width;
+  margin-left: $margin-x;
+  margin-right: $margin-x + $margin-left;
+}
+
 // demo specific
 $framework-color: #e23237;
 
 body {
-  max-width: 960px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 32px 16px;
 }
@@ -26,9 +37,7 @@ body::before {
 }
 
 .logo {
-  max-width: 140px;
-  margin-left: 20px;
-  margin-right: 30px;
+  @include logo(140px);
 }
 
 .text-framework {

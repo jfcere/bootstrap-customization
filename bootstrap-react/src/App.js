@@ -4,7 +4,7 @@ import './App.scss';
 
 function App() {
   return (
-    <div class="d-flex align-items-start">
+    <div class="d-flex align-items-center">
       <img class="logo" src={logo} alt="logo"/>
       <div>
         <div class="text-framework font-weight-bold">React v16.13.1</div>

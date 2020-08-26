@@ -2,6 +2,11 @@
   "name": "bootstrap-react",
   "version": "0.0.1",
   "private": true,
+  "scripts": {
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start"
+  },
   "dependencies": {
     "bootstrap": "^4.5.2",
     "bootstrap-lib": "file:../bootstrap-lib/lib",
@@ -12,11 +17,6 @@
   "devDependencies": {
     "node-sass": "^4.14.1",
     "react-scripts": "3.4.3"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -1,6 +1,11 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "start:angular": "cd bootstrap-angular && yarn start",
+    "start:lib": "cd bootstrap-lib && yarn start",
+    "start:react": "cd bootstrap-react && yarn start"
+  },
   "devDependencies": {
     "lerna": "^3.22.1"
   }
