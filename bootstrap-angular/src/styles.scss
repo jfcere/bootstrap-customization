@@ -20,8 +20,8 @@ $framework-color: #e23237;
 
 body {
   max-width: 900px;
-  margin: 0 auto;
-  padding: 32px 16px;
+  margin: 64px auto;
+  padding: 0 16px;
 }
 
 body::before {
@@ -29,9 +29,8 @@ body::before {
   position: absolute;
   top: 0;
   left: 0;
+  right: 0;
   height: 300px;
-  width: 100%;
-  padding: 3rem 15px;
   background: linear-gradient(to right bottom, rgba($framework-color, .15) 50%, transparent 50%);
   z-index: -1;
 }
