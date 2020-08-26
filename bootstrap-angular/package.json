@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
-    "start": "yarn link:lib && ng serve",
+    "start": "yarn link:lib && ng serve --open",
     "build": "ng build",
     "test": "ng test",
     "link:lib": "rimraf node_modules/bootstrap-lib && linklocal",
