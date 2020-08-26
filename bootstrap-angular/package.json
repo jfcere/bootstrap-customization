@@ -3,9 +3,10 @@
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "yarn link:lib && ng serve",
     "build": "ng build",
     "test": "ng test",
+    "link:lib": "rimraf node_modules/bootstrap-lib && linklocal",
     "lint": "ng lint"
   },
   "private": true,
@@ -41,6 +42,8 @@
     "karma-coverage-istanbul-reporter": "~3.0.2",
     "karma-jasmine": "~3.3.0",
     "karma-jasmine-html-reporter": "^1.5.0",
+    "linklocal": "^2.8.2",
+    "rimraf": "^3.0.2",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~3.9.5"

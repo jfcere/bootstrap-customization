@@ -5,7 +5,8 @@
   "scripts": {
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "start": "react-scripts start"
+    "link:lib": "rimraf node_modules/bootstrap-lib && linklocal",
+    "start": "yarn link:lib && react-scripts start"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
@@ -15,8 +16,10 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "linklocal": "^2.8.2",
     "node-sass": "^4.14.1",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "rimraf": "^3.0.2"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -1,0 +1,10 @@
+{
+  "name": "bootstrap-lib",
+  "version": "0.0.1",
+  "description": "Bootstrap customization library",
+  "author": "Jean-Francois Cere",
+  "license": "MIT",
+  "peerDependencies": {
+    "bootstrap": "^4.5.0"
+  }
+}
