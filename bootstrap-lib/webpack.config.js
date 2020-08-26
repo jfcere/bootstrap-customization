@@ -1,5 +1,6 @@
 const autoprefixer = require('autoprefixer');
 const CopyPlugin = require('copy-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = [{
   entry: ['./index.scss', './index.js'],
@@ -52,5 +53,13 @@ module.exports = [{
         to: 'package.json',
       },
     ]),
+    new HtmlWebpackPlugin({
+      template: './index.html',
+      minify: {
+        collapseInlineTagWhitespace: true,
+        collapseWhitespace: true,
+        conservativeCollapse: false,
+      },
+    }),
   ],
 }];
